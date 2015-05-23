@@ -23,6 +23,6 @@ int main()
 	arr.push_back(4);
 	arr.push_back(9);
 	arr.push_back(1);
-	printWellOrdered(0, 0, 4);
+	printWellOrdered(0, 0, 3);
 	cout << "Hello world" << endl;
 }
