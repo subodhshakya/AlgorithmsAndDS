@@ -1,3 +1,7 @@
+/*
+2 numbers given . First no have to be divided into 2 halves such that the sum of its halves must be less than or equal 
+to the second number. You have to find such 2 hal pairs which are as close to the second no.
+*/
 #include<iostream>
 
 using namespace std;
