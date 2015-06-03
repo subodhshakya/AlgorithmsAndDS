@@ -29,16 +29,15 @@ void permute(string word, int i, int n)
 			cout << word << endl;			
 		}			
 		permutationList.push_back(word);
+		return;
 	}
-	else
+	
+	for (j = i; j <= n; j++)
 	{
-		for (j = i; j <= n; j++)
-		{
-			swap(&word[i], &word[j]);
-			permute(word, i + 1, n);
-			swap(&word[i], &word[j]); //backtrack
-		}
-	}
+		swap(&word[i], &word[j]);
+		permute(word, i + 1, n);
+		swap(&word[i], &word[j]); //backtrack
+	}	
 }
 
 int main()
