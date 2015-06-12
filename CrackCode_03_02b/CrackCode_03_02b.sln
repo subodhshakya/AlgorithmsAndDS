@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CrackCode_03_02b", "CrackCode_03_02b\CrackCode_03_02b.vcxproj", "{D364F038-0C80-422B-BE14-C344B219B24B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D364F038-0C80-422B-BE14-C344B219B24B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D364F038-0C80-422B-BE14-C344B219B24B}.Debug|Win32.Build.0 = Debug|Win32
+		{D364F038-0C80-422B-BE14-C344B219B24B}.Release|Win32.ActiveCfg = Release|Win32
+		{D364F038-0C80-422B-BE14-C344B219B24B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
