@@ -17,7 +17,7 @@ namespace CSharp_CrackCode_01_01
         {
             Console.Write("Enter a word to test if it has all unique characters:");
             string inputString = Console.ReadLine();
-            if (IsAllUniqueChar(inputString))
+            if (IsAllUniqueCharApproach2(inputString))
             {
                 Console.WriteLine("All characters are unique!!!");
             }
@@ -42,5 +42,30 @@ namespace CSharp_CrackCode_01_01
 
             return true;
         }
+
+        static bool IsAllUniqueCharApproach2(string word)
+        {
+            bool[] charactersFlag = new bool[255];
+            foreach (char c in word)
+            {
+                int asciiVal = (int)c;
+                if (!charactersFlag[asciiVal])
+                {
+                    charactersFlag[asciiVal] = true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+
+        /**
+         If you are not allowed to use additional data structures then you can do either of the following:
+        a> Compare each character with other character. O(n^2) solution.
+        b> Modify input string: Sort input string and then compare each character with next. Sort O(nLogn) and unique function O(n).
+         */
     }
 }
